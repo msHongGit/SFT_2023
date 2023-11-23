@@ -1,0 +1,17 @@
+1. mlops_kafka_exam.py 에서 배포파일만들기
+	(1) predict 파일 수정
+	(2) python venv 가상환경 설정 및 구동
+2. 배포파일을 서버에 옮겨 놓기
+	(1) ssh server@192.168.25.154 // 1234 로 접속
+	(2) 1.에서 생성된 배포파일을 옮겨 놓기
+	(3) 이전 컨테이너 삭제
+		(docker exec -it mlops-deployer bash)
+		(cd /mlops.home/artifacts/20231010_test/20231010_test_1/)
+		(rm -r 2023101000000000)
+	(3) 컨테이너에 옮긴 파의 내용물을 해당 경로에 집어넣기
+		(docker cp FIN_SFT_1018 mlops-deployer:/mlops.home/artifacts/20231010_test/20231010_test_1/2023101000000000/)
+3.  서버에 반영 및 확인
+	(1) docker restart (docker restart mlops-deployer)
+	(2) 편의 확인용 tail log 구동 (docker exec -it mlops-deployer tail -f /app/log/deploy-log.log)
+	(3) ui서버에서 재 구동 (192.168.40.94:9080 admin // admin) -> 배포관리 -> 한개씩 체크박스에 클릭 후 [배포 시작] 버튼 클릭
+4. mlops_kafka_exam.py 파일로 kafka 정상 구동 확인
