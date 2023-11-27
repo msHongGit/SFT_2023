@@ -1,17 +1,15 @@
-AutoML_결과요약.ipynb
-AutoML_모델학습저장.ipynb
-DataEDA.ipynb
-Final_code_1023.zip
-GAN_test.ipynb
-Object1_KOLAS_LABdata.zip
-requirements.txt
-requirements2.txt
-데이터_구축_1차.ipynb
-데이터_구축_2차.ipynb
+*.zip
 *.hwp
 *.txt
 *.py
 *.csv
+
+AutoML_결과요약.ipynb
+AutoML_모델학습저장.ipynb
+DataEDA.ipynb
+GAN_test.ipynb
+데이터_구축_1차.ipynb
+데이터_구축_2차.ipynb
 
 dataset/
 Full_code/.ipynb_checkpoints/
@@ -22,7 +20,6 @@ Full_code/dataset/
 Full_code/final_dataset/
 Full_code/tmp_dataset/
 Full_code/whole_models/
-Full_code/input_data_example_of_5rows.csv
 Full_code/data_integration.ipynb
 Full_code/LAB_data_generator.ipynb
 Full_code/MES_CMB_data_generator.ipynb
