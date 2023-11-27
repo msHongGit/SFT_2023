@@ -8,6 +8,7 @@ requirements.txt
 requirements2.txt
 데이터_구축_1차.ipynb
 데이터_구축_2차.ipynb
+*.hwp
 
 dataset/
 Full_code/.ipynb_checkpoints/
