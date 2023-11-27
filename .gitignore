@@ -11,6 +11,7 @@ requirements2.txt
 *.hwp
 *.txt
 *.py
+*.csv
 
 dataset/
 Full_code/.ipynb_checkpoints/
