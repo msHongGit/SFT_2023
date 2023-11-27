@@ -10,6 +10,7 @@ requirements2.txt
 데이터_구축_2차.ipynb
 *.hwp
 *.txt
+*.py
 
 dataset/
 Full_code/.ipynb_checkpoints/
