@@ -3,6 +3,7 @@
 *.txt
 *.py
 *.csv
+*.pkl
 
 AutoML_결과요약.ipynb
 AutoML_모델학습저장.ipynb
@@ -53,3 +54,9 @@ Final_code_summary/mlops_kafka_exam.py
 Final_code_summary/mlops_make_mlflow_model.py
 Final_code_summary/mlops_test.py
 Final_code_summary/final_dataset/
+
+Final_code_summary/
+FINAL_code_추가지원/SFT_regr/
+FINAL_code_추가지원/SFT_regr_full_Model/
+FINAL_code_추가지원/TEST_SFT1/
+FINAL_code_추가지원/데이터 분포도/
